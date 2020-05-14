@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h3>수강분야(다수 선택 가능)</h3>
+        <ul>
+            <li><input type="checkbox" value="grm">문법</li>
+            <li><input type="checkbox" value="wr">작문</li>
+            <li><input type="checkbox" value="rd">독해</li>
+        </ul>
+        <h3>수강 과목(1과목만 선택 가능)</h3>
+        <ul>
+            <li>
+                <input type="radio" name="subject" value="eng" id="eng">
+                <label for="eng">영어회화</label>
+            </li>
+            
+            <li>
+                <input type="radio" name="subject" value="ch" id="ch">
+                <label for="ch">중국어회화</label>
+            </li>
+            
+            <li>
+                <input type="radio" name="subject" value="eng" id="jp">
+                <label for="jp">영어회화</label>
+            </li>
+        </ul>
+    </form>
+    <h3>회원가입</h3>
+    <form>
+        <fieldset>
+            <legend>필수정보</legend>
+            <label>이름 <input type="text" placeholder="이름을 적어주세요"></label>
+        </fieldset>
+    </form>
+</body>
+</html>
