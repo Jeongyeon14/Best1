@@ -15,7 +15,10 @@ body {
     background-color: white;
 }
 
-a {text-decoration: none;}
+a {
+    text-decoration: none;
+    color: #333333;
+}
 
 ul {list-style: none;}
 
