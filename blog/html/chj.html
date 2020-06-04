@@ -1,45 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="../css/main.css" rel="stylesheet">
     <meta charset="UTF-8">
+    <link href="../css/main.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-<script>
-function lotto() {
-    lotto=[]
-while(true) {
-    var temp= parseInt(Math.random()*45+1)
-    if(lotto.length ==0){
-        lotto.push(temp)
-    }
-    else{
-        var isin = false
-    for(var j=0; j<lotto.length; j++){
-        if(lotto[j] == temp){
-            isin = true
+    <title>효정</title>
+    <style>
+        h1{
+            margin: auto;
         }
-    }
-        if(isin == false){
-        lotto.push(temp)
-        }
-    }
-        if(lotto.length == 6){
-            break
-        }
-
-}
-    alert(lotto)
-} 
-lotto()
-</script>
-
-
-
-
-
+    </style>
 </head>
+
 <body>
     <header>
         <a href="main.html">
@@ -54,5 +27,7 @@ lotto()
                 </ul>
             </nav>
     </header>
+    <h1>너무 졸리다...뭘 해야할지 모르겠다...</h1>
+    <p></p>
 </body>
 </html>
